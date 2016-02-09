@@ -1,0 +1,154 @@
+/*GLOBAL STYLES*/
+
+/*
+Primary color; goldenrod DDA520
+Secondary color; forest green 228B22
+Third color;
+*/
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lobster', cursive; Verdana, Geneva, sans-serif;
+
+}
+
+h1, h2, h3{
+  margin: 0px;
+
+}
+
+a{
+  text-decoration: none;
+  color: #333333
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*HEADER STYLES*/
+
+header{
+  height:120px;
+  background-color: #daa520;
+}
+
+#logo{
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+#logo h1:hover{
+  color: #00ff00;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+#menu li{
+  display: block;
+  float: left;
+
+}
+
+#menu li::after{
+  content: " | ";
+  padding: 0 10px;
+}
+#menu a:hover{
+  color: #00ff00;
+
+}
+
+/*BANNER STYLES*/
+
+#banner-home{
+  height: 250px;
+  background-color: #dddddd;
+  background-size: cover;
+  background:url(../img/spacebanner.jpg)bottom;
+}
+
+#banner-home{
+  text-align: center;
+  padding: 90px 0px;
+}
+/*Blog Styples*/
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+
+}
+.blog-1, .blog-2 {
+  width: 384px;
+  float: left;
+  margin-right: 24px:
+
+}
+.blog-3{
+  width:384px;
+  float: left;
+}
+
+.blog-image {
+  height: 285px;
+  width: 380px;
+  margin: 0px 2px;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 2em;
+}
+
+#blog a{
+  text-align: justify;
+}
+
+#about h2{
+  float: left;
+  font-size: 20px;
+  text-align: center;
+}
+
+#about a{
+  float: left;
+  margin: 10px 10px 10px 10px;
+  text-align: justify;
+
+}
+
+.about-image {
+  height: 300px;
+  width: 300px;
+  float:left;
+
+}
+
+.button{
+  padding: 15px 35px;
+  background-color: #999999;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0px;
+}
+
+.button:hover{
+  background-color: #333;
+  color: #999999;
+}
