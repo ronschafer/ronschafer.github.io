@@ -56,7 +56,6 @@ header{
 #menu li{
   display: block;
   float: left;
-
 }
 
 #menu li::after{
@@ -116,23 +115,66 @@ header{
   text-align: justify;
 }
 
-#about h2{
-  float: left;
-  font-size: 20px;
+#about h1{
+  font-size: 3em;
   text-align: center;
 }
 
-#about a{
-  float: left;
-  margin: 10px 10px 10px 10px;
-  text-align: justify;
+}
+figure(
+  margin: 0px;
+  padding: 0px;
+  )
 
+#about{
+  border: 2px dotted #333;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 .about-image {
   height: 300px;
   width: 300px;
   float:left;
+
+}
+.alignleft {
+    margin-right: 24px;
+    margin-top: 10px;
+    float: left;
+    width: 304px;
+
+}
+
+footer{
+  margin-top: 20px;
+  clear:both;
+
+}
+#copyright{
+  padding: 30px 8px;
+  background-color:#ald072;
+  display:block;
+  color: #7272d0;
+
+}
+
+#copyright p{
+  text-align: center;
+  font-size: 1.5em;
+}
+.social{
+  text-align: center;
+}
+.fa{
+  height:28px;
+  width: 28px;
+  background-color: #7272d0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border; 3px solid #fff;
+  border-radius: 100%;
 
 }
 
